@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(){float price=700,discount=0; char student='y'; if(student=='y'){ if(price>500) discount=price*0.20; else discount=price*0.10; } else { if(price>600) discount=price*0.15; } printf("Final Price = %.2f",price-discount); return 0;}
