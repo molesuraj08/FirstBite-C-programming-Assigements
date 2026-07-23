@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int printNumbers()
+{
+    int i;
+
+    for(i = 1; i <= 10; i++)
+    {
+        printf("%d ", i);
+    }
+
+    return 0;
+}
+
+int main()
+{
+    printNumbers();
+
+    return 0;
+}
